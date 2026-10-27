@@ -1,0 +1,3 @@
+task,model,cv_mean,cv_std,scoring
+classification,Arvore_sem_limite,0.8283606331555102,0.0014789346960246755,f1
+classification,Arvore_ajustada,0.8920880882157709,0.002432771470298656,f1

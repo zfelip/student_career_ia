@@ -1,0 +1,3 @@
+tarefa,numero_sessoes,regras_criadas,tempo_total_minutos,tempo_medio_sessao_minutos,desvio_padrao_amostral_minutos,tempo_medio_por_regra_minutos
+regression,3,5,71.56666700000001,23.85555566666667,7.7332137883480465,14.313333400000001
+classification,3,6,68.68333299999999,22.89444433333333,9.103484099304854,11.447222166666664

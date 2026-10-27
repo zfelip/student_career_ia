@@ -1,0 +1,3 @@
+task,model,train_seconds
+regression,Arvore_sem_limite,1.2674979000003077
+regression,Arvore_ajustada,95.07473599998048

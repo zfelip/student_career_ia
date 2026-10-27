@@ -1,0 +1,9 @@
+task,model,cv_mean,cv_std,scoring
+regression,Arvore_sem_limite,-5.098963198965221,0.05167732189612449,neg_root_mean_squared_error
+regression,Arvore_ajustada,-4.92143901475776,0.05135748594894343,neg_root_mean_squared_error
+regression,Random_Forest,-2.8892791100713624,0.03496276378563369,neg_root_mean_squared_error
+regression,Gradient_Boosting,-2.7612142455920856,0.05890275826988293,neg_root_mean_squared_error
+classification,Arvore_sem_limite,0.8283606331555102,0.0014789346960246755,f1
+classification,Arvore_ajustada,0.8920880882157709,0.002432771470298656,f1
+classification,Random_Forest,0.8921337081271746,0.0019254070316089935,f1
+classification,Gradient_Boosting,0.8931329357426774,0.0024187804358316222,f1

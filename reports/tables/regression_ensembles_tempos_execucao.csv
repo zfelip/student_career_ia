@@ -1,0 +1,3 @@
+task,model,train_seconds
+regression,Random_Forest,260.5720507999649
+regression,Gradient_Boosting,428.0126140000066

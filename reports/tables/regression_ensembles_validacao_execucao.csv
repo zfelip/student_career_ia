@@ -1,0 +1,3 @@
+task,model,cv_mean,cv_std,scoring
+regression,Random_Forest,-2.8892791100713624,0.03496276378563364,neg_root_mean_squared_error
+regression,Gradient_Boosting,-2.7612142455920856,0.05890275826988293,neg_root_mean_squared_error

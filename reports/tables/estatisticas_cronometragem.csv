@@ -1,0 +1,3 @@
+tarefa,sessoes,regras_reportadas,tempo_total_min,media_sessao_min,desvio_padrao_sessao_min,tempo_medio_por_regra_min,origem
+regression,3,5,52.566666999999995,17.522222333333332,0.30245908201992167,10.513333399999999,informacao declarada pelo estudante; nao auditada
+classification,3,6,52.683333000000005,17.561111,1.3968548288791511,8.7805555,informacao declarada pelo estudante; nao auditada

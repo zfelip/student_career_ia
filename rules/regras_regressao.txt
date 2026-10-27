@@ -1,0 +1,5 @@
+1. Tipo heuristica | SE ('Interview_Score', '<', 67.0) ENTÃO 177.5579871348164
+2. Tipo heuristica | SE ('Interview_Score', '>=', 67.0) E ('Interview_Score', '<', 75.0) ENTÃO 203.02669966137015
+3. Tipo heuristica | SE ('Interview_Score', '>=', 75.0) E ('Interview_Score', '<', 82.0) ENTÃO 216.83369479272565
+4. Tipo heuristica | SE ('Interview_Score', '>=', 82.0) E ('Interview_Score', '<', 88.0) ENTÃO 227.4591194519766
+5. Tipo heuristica | SE ('Interview_Score', '>=', 88.0) ENTÃO 240.40362777777776

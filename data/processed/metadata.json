@@ -1,0 +1,85 @@
+{
+  "regression": {
+    "target": "Employability_Score",
+    "features": [
+      "Age",
+      "Gender",
+      "University_Year",
+      "Major",
+      "Attendance_Percentage",
+      "Study_Hours_Per_Week",
+      "CGPA",
+      "Academic_Performance",
+      "Programming_Skill",
+      "Projects_Completed",
+      "Certifications",
+      "Hackathons",
+      "GitHub_Profile",
+      "Internships",
+      "Leadership_Experience",
+      "LinkedIn_Profile",
+      "Resume_Score",
+      "Communication_Skills",
+      "Teamwork",
+      "Problem_Solving",
+      "English_Proficiency",
+      "Interview_Score"
+    ],
+    "excluded": [
+      "Student_ID",
+      "Employability_Score",
+      "Placement_Status",
+      "Company_Tier",
+      "Career_Field",
+      "Placement_Mode",
+      "Starting_Salary_USD"
+    ]
+  },
+  "classification": {
+    "target": "Placement_Status",
+    "features": [
+      "Age",
+      "Gender",
+      "University_Year",
+      "Major",
+      "Attendance_Percentage",
+      "Study_Hours_Per_Week",
+      "CGPA",
+      "Academic_Performance",
+      "Programming_Skill",
+      "Projects_Completed",
+      "Certifications",
+      "Hackathons",
+      "GitHub_Profile",
+      "Internships",
+      "Leadership_Experience",
+      "LinkedIn_Profile",
+      "Resume_Score",
+      "Communication_Skills",
+      "Teamwork",
+      "Problem_Solving",
+      "English_Proficiency",
+      "Interview_Score",
+      "Employability_Score"
+    ],
+    "excluded": [
+      "Student_ID",
+      "Placement_Status",
+      "Company_Tier",
+      "Career_Field",
+      "Placement_Mode",
+      "Starting_Salary_USD"
+    ],
+    "target_mapping": {
+      "Not Placed": 0,
+      "Placed": 1
+    }
+  },
+  "random_state": 42,
+  "test_size": 0.2,
+  "notes": [
+    "Datasets processed contain raw numeric and categorical features, not a globally fitted scaler.",
+    "Fit encoders and any imputers/scalers only on training folds using Pipeline.",
+    "Employability_Score is retained as classification feature to preserve prior selection; assess availability and potential target leakage."
+  ]
+}

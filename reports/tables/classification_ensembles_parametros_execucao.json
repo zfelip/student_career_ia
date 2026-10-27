@@ -1,0 +1,12 @@
+{
+  "Random_Forest": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 2,
+    "model__n_estimators": 100
+  },
+  "Gradient_Boosting": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 2,
+    "model__n_estimators": 60
+  }
+}

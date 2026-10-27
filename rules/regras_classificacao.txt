@@ -1,0 +1,6 @@
+1. Tipo heuristica | SE ('Interview_Score', '>=', 80) E ('Programming_Skill', '>=', 7) ENTÃO 1
+2. Tipo heuristica | SE ('Employability_Score', '>=', 238.8) ENTÃO 1
+3. Tipo heuristica | SE ('Employability_Score', '>=', 227.0) E ('Employability_Score', '<', 238.8) ENTÃO 1
+4. Tipo heuristica | SE ('Employability_Score', '>=', 213.8) E ('Employability_Score', '<', 227.0) ENTÃO 1
+5. Tipo heuristica | SE ('Employability_Score', '>=', 191.95) E ('Employability_Score', '<', 213.8) ENTÃO 1
+6. Tipo heuristica | SE ('Employability_Score', '<', 191.95) ENTÃO 0

@@ -1,0 +1,3 @@
+task,model,cv_mean,cv_std,scoring
+classification,Random_Forest,0.8921337081271746,0.0019254070316089935,f1
+classification,Gradient_Boosting,0.8931329357426774,0.0024187804358316222,f1

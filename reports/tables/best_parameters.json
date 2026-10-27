@@ -1,0 +1,36 @@
+{
+  "regression:Sistema_Especialista": {},
+  "regression:Arvore_sem_limite": {},
+  "regression:Arvore_ajustada": {
+    "model__criterion": "squared_error",
+    "model__max_depth": 12,
+    "model__min_samples_leaf": 10
+  },
+  "regression:Random_Forest": {
+    "model__max_depth": 16,
+    "model__min_samples_leaf": 2,
+    "model__n_estimators": 100
+  },
+  "regression:Gradient_Boosting": {
+    "model__learning_rate": 0.1,
+    "model__max_depth": 2,
+    "model__n_estimators": 100
+  },
+  "classification:Sistema_Especialista": {},
+  "classification:Arvore_sem_limite": {},
+  "classification:Arvore_ajustada": {
+    "model__criterion": "entropy",
+    "model__max_depth": 6,
+    "model__min_samples_leaf": 10
+  },
+  "classification:Random_Forest": {
+    "model__max_depth": 10,
+    "model__min_samples_leaf": 2,
+    "model__n_estimators": 100
+  },
+  "classification:Gradient_Boosting": {
+    "model__learning_rate": 0.05,
+    "model__max_depth": 2,
+    "model__n_estimators": 60
+  }
+}
